@@ -23,7 +23,7 @@ function getBody(event) {
   }
 }
 
-function getDeskerciseResponse(prompt) {
+function getDeskerciseText(prompt) {
   let timerUrl = "https://www.youtube.com/watch?v=x6ggW8ei0yU";
   let description = "Do this exercise!:";
   let randomUrl;
@@ -41,20 +41,24 @@ function getDeskerciseResponse(prompt) {
   return `Timer:\n ${timerUrl}\n ${description}\n ${randomUrl}`;
 }
 
+function getCompletedText() {
+  return getRandom([
+    "GOOD JOB!",
+    "NICE",
+    "WOOHOO!",
+    "That was a toughie....",
+    "Great, talk to you later!"
+  ]);
+}
+
 function sendDeskercise(body) {
   let response;
   const firstWordOfPrompt = body.text.toLowerCase().replace(/ .*/, "");
 
   if (firstWordOfPrompt === "done") {
-    response = getRandom([
-      "GOOD JOB!",
-      "NICE",
-      "WOOHOO!",
-      "That was a toughie....",
-      "Great, talk to you later!"
-    ]);
+    response = getCompletedText();
   } else {
-    response = getDeskerciseResponse(firstWordOfPrompt);
+    response = getDeskerciseText(firstWordOfPrompt);
   }
 
   return { response_type: "in_channel", text: response };
