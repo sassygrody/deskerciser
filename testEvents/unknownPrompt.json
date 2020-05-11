@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "routeKey": "ANY /deskerciser",
+  "rawPath": "/default/deskerciser",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "application/json,/",
+    "accept-encoding": "gzip,deflate",
+    "content-length": "380",
+    "content-type": "application/x-www-form-urlencoded",
+    "host": "t01da3ad9f.execute-api.us-west-2.amazonaws.com",
+    "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+    "x-amzn-trace-id": "Root=1-5eb8e2c9-5ae87a70de166ab08b43d4d0",
+    "x-forwarded-for": "3.83.144.224",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https",
+    "x-slack-request-timestamp": "1589174985",
+    "x-slack-signature": "v0=96894ee3c381919fc5e0bb1d9dbaaf4d291af6e8d61dea454f6b5434f8594525"
+  },
+  "requestContext": {
+    "accountId": "876943078750",
+    "apiId": "t01da3ad9f",
+    "domainName": "t01da3ad9f.execute-api.us-west-2.amazonaws.com",
+    "domainPrefix": "t01da3ad9f",
+    "http": {
+      "method": "POST",
+      "path": "/default/deskerciser",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "3.83.144.224",
+      "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+    },
+    "requestId": "MWhfhi2NvHcEMpw=",
+    "routeKey": "ANY /deskerciser",
+    "stage": "default",
+    "time": "11/May/2020:05:29:45 +0000",
+    "timeEpoch": 1589174985651
+  },
+  "body": "dG9rZW49SzFNOTEwVW9zdWVTVzVQTnFSbWpvT1czJnRlYW1faWQ9VEtEOEw0QlFYJnRlYW1fZG9tYWluPW55LW5zaCZjaGFubmVsX2lkPUMwMTJRQUZDMlFNJmNoYW5uZWxfbmFtZT1kZXNrZXJjaXNlZWUtdGVzdGluZyZ1c2VyX2lkPVVLMDdNUU5NOCZ1c2VyX25hbWU9YWdyb2R6aW5zJmNvbW1hbmQ9JTJGZGVza2VyY2lzZXImdGV4dD1ibGFhYWFoaGgmcmVzcG9uc2VfdXJsPWh0dHBzJTNBJTJGJTJGaG9va3Muc2xhY2suY29tJTJGY29tbWFuZHMlMkZUS0Q4TDRCUVglMkYxMTEzODEwMDc1NzAxJTJGVkhsSGRpUW1IN2dhZzVGUXFKZnRPM0lTJnRyaWdnZXJfaWQ9MTEwMDQ0Nzc3MTQ2My42NTkyOTIxNDc4NDcuOTU2MDg1ZWNmOTk0ZGY5ZWI0MTFjMzdhZmIwNGRjYmY=",
+  "isBase64Encoded": true
+}

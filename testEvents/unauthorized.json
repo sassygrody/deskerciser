@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "routeKey": "ANY /deskerciser",
+  "rawPath": "/default/deskerciser",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "application/json,/",
+    "accept-encoding": "gzip,deflate",
+    "content-length": "375",
+    "content-type": "application/x-www-form-urlencoded",
+    "host": "t01da3ad9f.execute-api.us-west-2.amazonaws.com",
+    "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+    "x-amzn-trace-id": "Root=1-5eab3c4d-ebc000186ef3db5041085ef8",
+    "x-forwarded-for": "52.73.132.68",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https",
+    "x-slack-request-timestamp": "1588280397",
+    "x-slack-signature": "v0=578292537798c23af2d13cc9ce389f1ab2f3a5be6f9bfcd6d7b914d918287beb"
+  },
+  "requestContext": {
+    "accountId": "876943078750",
+    "apiId": "t01da3ad9f",
+    "domainName": "t01da3ad9f.execute-api.us-west-2.amazonaws.com",
+    "domainPrefix": "t01da3ad9f",
+    "http": {
+      "method": "POST",
+      "path": "/default/deskerciser",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "52.73.132.68",
+      "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+    },
+    "requestId": "L0ZcLhSvvHcESCA=",
+    "routeKey": "ANY /deskerciser",
+    "stage": "default",
+    "time": "30/Apr/2020:20:59:57 +0000",
+    "timeEpoch": 1588280397806
+  },
+  "body": "some-token",
+  "isBase64Encoded": true
+}
